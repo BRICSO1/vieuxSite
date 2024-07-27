@@ -1,0 +1,33 @@
+h1 {
+    color: royalblue;
+    font-family: 'arial';
+    font-size: 6ch;
+    text-align: center;
+}
+img {
+    image-rendering:auto, center;
+}
+p {
+    color: red;
+    font-family: 'arial', ;
+    font-size: 4ch;
+    text-align: center;
+}
+td,th {
+    border: 1px solid rgba(69, 168, 186, 0.373);
+    padding: 32px;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+    font-family: arial ;
+}
+fieldset {
+    text-align: justify;
+}
+@media all and (min-width: 200px) and (max-width: 1000px) {
+    body,head,table, p {
+        stop-color: aqua;
+        font-family: Webdings;
+    }
+}
